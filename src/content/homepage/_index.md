@@ -11,41 +11,42 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
+  - title: "What's Included in Nexa Climate"
     image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+    content: "Nexa Climate is a comprehensive platform for evaluation of scope 3 emissions. What's included in Nexa Climate?"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Scope 1, 2, 3 emissions evaluation"
+      - "Dashboarding of the data by time and category"
+      - "Reporting for different stakeholders"
+      - "Other Features"
+
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Next"
+  - title: "Discover the Key Features Of Nexa Climate"
     image: "/images/service-2.png"
     content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Customizable scope 3 evaluation"
+      - "Optionality of **AI** driven calculation"
+      - "Fully responsive on all devices"
+      - "And many mores"
+
     button:
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/nextplate"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
+  - title: "The Top Reasons to Choose Nexa Clime for Mitigation of Your Scope3 Emissions"
     image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "With Nexa Climate, you can quickly evluate your scope3 emissions and offseting solutions"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Easy to use while reliable"
+      - "Interactive reporting"
+      - "Other reasons"
+      - "Other reasons"
     button:
       enable: false
       label: ""

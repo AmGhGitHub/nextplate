@@ -1,7 +1,7 @@
 import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+
 import { getListPage } from "@/lib/contentParser";
-import { markdownify } from "@/lib/utils/textConverter";
+
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 
@@ -20,8 +20,8 @@ const About = () => {
       />
       <section className="section-sm">
         <div className="container">
-          <div className="row justify-center">
-            <div className="text-center md:col-10 lg:col-7">
+          <div className="row">
+            <div className="text-center md:col-4 lg:col-4">
               {image && (
                 <ImageFallback
                   className="mx-auto mb-6 rounded-lg"
@@ -31,13 +31,37 @@ const About = () => {
                   alt={title}
                 />
               )}
-              <h2
-                dangerouslySetInnerHTML={markdownify(title)}
-                className="h3 mb-6"
-              />
-              <div className="content">
-                <MDXContent content={content} />
-              </div>
+              <h3 className="h4 mb-6">Tyler Tarnoczi</h3>
+
+              <div className="content">CEO</div>
+            </div>
+            <div className="text-center md:col-4 lg:col-4">
+              {image && (
+                <ImageFallback
+                  className="mx-auto mb-6 rounded-lg"
+                  src={image}
+                  width={200}
+                  height={200}
+                  alt={title}
+                />
+              )}
+              <h3 className="h4 mb-6">Mehdi Bahonar</h3>
+
+              <div className="content">CFO</div>
+            </div>
+            <div className="text-center md:col-4 lg:col-4">
+              {image && (
+                <ImageFallback
+                  className="mx-auto mb-6 rounded-lg"
+                  src={image}
+                  width={200}
+                  height={200}
+                  alt={title}
+                />
+              )}
+              <h3 className="h4 mb-6">Amir Ghaderi</h3>
+
+              <div className="content">CTO</div>
             </div>
           </div>
         </div>

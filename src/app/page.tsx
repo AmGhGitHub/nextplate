@@ -6,6 +6,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
+import Link from "next/link";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -27,19 +28,17 @@ const Home = () => {
         <div className="container">
           <div className="row justify-center">
             <div className="mb-16 text-center lg:col-7">
-              <h1
-                className="mb-4"
-                dangerouslySetInnerHTML={markdownify(banner.title)}
-              />
-              <p
-                className="mb-8"
-                dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
-              />
-              {banner.button!.enable && (
-                <a className="btn btn-primary" href={banner.button!.link}>
-                  {banner.button!.label}
-                </a>
-              )}
+              <h1 className="text-slate-700 text-h1">Nexa Climate</h1>
+              <h2 className="text-emerald-500 text-h4">Go Green, Earn Green</h2>
+              <p className="mb-8 font-extralight">
+                In an era prioritizing climate action, Nexa Climate leads in
+                sustainability, focusing on often-missed scope 3 emissions. Join
+                us in championing a future valuing progress and the planet. With
+                Nexa Climate, your business becomes a symbol of positive change.
+              </p>
+              <button className="btn btn-primary">
+                <Link href="https://nexaclimate.ca/">Learn More</Link>
+              </button>
             </div>
             {banner.image && (
               <div className="col-12">

@@ -1,7 +1,7 @@
 ---
-title: "Elements"
+title: "Our Story"
 meta_title: ""
-description: "this is meta description"
+description: ""
 draft: false
 ---
 

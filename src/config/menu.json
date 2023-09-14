@@ -5,17 +5,17 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Our Team",
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "About",
       "url": "/elements"
     },
     {
-      "name": "Pages",
+       "name": "",
       "url": "",
-      "hasChildren": true,
+      "hasChildren": false,
       "children": [
         {
           "name": "Contact",
